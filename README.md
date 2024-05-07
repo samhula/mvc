@@ -15,4 +15,3 @@ This is a work in progress. Below is a roadmap for what has and hasn't been comp
   - [ ] Establishing a connection
   - [ ] Sign in / Sign up Functionality
   - [ ] Basic MySQL queries
-  - [ ]   
