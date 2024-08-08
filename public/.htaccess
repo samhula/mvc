@@ -1,0 +1,8 @@
+ReWriteEngine On
+
+#Only accepting valid file and directories
+ReWriteCond %{REQUEST_FILENAME} !-f
+ReWriteCond %{REQUEST_FILENAME} !-d
+
+#Invalid file and directories get sent to index page
+ReWriteRule ^(.*)$ index.php?url=$1 [L,QSA]

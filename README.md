@@ -3,13 +3,13 @@ The purpose of this project is to give users a lightweight PHP MVC Framework tha
 This is a work in progress. Below is a roadmap for what has and hasn't been completed.
 
 - [ ] General File Structure
-  - [ ] Router
+  - [x] Router
   - [ ] Model
-  - [ ] View
-  - [ ] Controller
-  - [ ] Config
+  - [x] View
+  - [x] Controller
+  - [x] Config
   - [ ] Functions
-  - [ ] Initialisation
+  - [x] Initialisation
 
 - [ ]  Database
   - [ ] Establishing a connection
