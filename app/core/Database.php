@@ -3,11 +3,12 @@
 class Database 
 {
 	private function connect($conn){
-		$connection = new PDO();
+		$string = "mysql:hostname=".DBHOST.";dbname=".DBNAME;
+		$connection = new PDO($string, DBUSER, DBPASSWORD);
 		return $connection;
 	}
 
-	private static function query($query){
-
+	public static function query($query, $data = []){
+		
 	}	
 }
